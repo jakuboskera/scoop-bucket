@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/jakuboskera/tkgi-kubectx/releases/download/v0.1.0/tkgi-kubectx_v0.1.0_windows_i386.zip",
+            "bin": [
+                "tkgi-kubectx.exe"
+            ],
+            "hash": "15c9d534c4b386e06be6ca086f0c2991d8dd015f14e2e958e3dccf8aa962dac6"
+        },
+        "64bit": {
+            "url": "https://github.com/jakuboskera/tkgi-kubectx/releases/download/v0.1.0/tkgi-kubectx_v0.1.0_windows_x86_64.zip",
+            "bin": [
+                "tkgi-kubectx.exe"
+            ],
+            "hash": "7ce79baf97bb504959bbcca2157e0788c35c02f6e394b48052e86731a9928af8"
+        }
+    },
+    "license": "Apache 2",
+    "description": "Faster way to switch between clusters and namespaces in kubectl with support of tkgi login before switch"
+}
